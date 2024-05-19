@@ -8,7 +8,7 @@ a {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1920px;
     margin: auto;
     padding-left: 160px;
     padding-right: 160px;
@@ -72,6 +72,12 @@ a:hover {
     color: #fff;
     background: none;
     border: none;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.header__select:hover {
+    color: #107575;
 }
 
 .header__autorization {
@@ -211,6 +217,7 @@ summary {
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
+    cursor: pointer;
 }
 
 summary::after {
