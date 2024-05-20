@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Криптовалютный рынок</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script defer src="js/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -74,6 +82,43 @@
                 </div>
             </div>
         </section>
+
+        <section class="grey-section advantages advantages--mobile">
+            <div class="container">
+                <h2>Преимущества торговли с «United Brokers»</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper advantages__box">
+                        <div class="swiper-slide grid-2">
+                            <h3>Типы счетов</h3>
+                            <p>Возможность торговать<br>Mini, Standard, Classic и ProInvest счетами<br>с одного устройства</p>
+                            <img src="img/types.svg" alt="типы счетов">
+                        </div>
+                        <div class="swiper-slide">
+                            <h3>Сверхбыстрое исполнение и высокая ликвидность</h3>
+                            <p>99,9% ордеров исполняются менее чем за 11.06 мс</p>
+                            <img src="img/stopwatch.svg" alt="часы">
+                        </div>
+                        <div class="swiper-slide">
+                            <h3>Мировые стандарты безопасности</h3>
+                            <p>Выбирайте надежного брокера, который работает с клиентами более чем в 83 странах мира</p>
+                            <img src="img/standarts.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <h3>150+ инструментов</h3>
+                            <p>Forex, акции, фьючерсы, индексы, металлы и энергоресурсы</p>
+                            <img src="img/instruments.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <h3>Мультиязычная поддержка 24/5</h3>
+                            <p>Почувствуйте себя уверенно, зная, что наша служба поддержки доступна для вас в любое время дня и ночи, с понедельника по пятницу</p>
+                            <img src="img/support.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
         <section class="platrorms">
             <div class="container">
                 <div class="platrorms__box">
@@ -84,7 +129,7 @@
                 <img src="img/platforms.png" alt="фото платформ">
             </div>
         </section>
-        <section class="grey-section">
+        <section class="grey-section questions">
             <div class="container">
                 <h2>Вопросы и ответы</h2>
                 <details open>
@@ -95,15 +140,16 @@
                     <summary>Основные преимущества криптовалют</summary>
                     <p>Какой-то текст</p>
                 </details>
+                <a href="" class="btn">Начать торговать</a>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
             <div class="footer__top">
-                <a href=""><img src="img/footer-logo.svg" alt="логитип футера"></a>
+                <a class="footer__logo" href=""><img src="img/footer-logo.svg" alt="логитип футера"></a>
                 <div class="footer__softs">
-                    <p>Скачать приложение<br>United Brokers:</p>
+                    <p>Скачать приложение United Brokers:</p>
                     <div class="footer__links">
                         <a href=""><img src="img/window.svg" alt=""></a>
                         <a href=""><img src="img/cloud.svg" alt=""></a>
@@ -147,6 +193,11 @@
                     <a href="">Документы</a>
                     <a href="">Сохранность средств</a>
                     <a href="">Вакансии</a>
+                </nav>
+                <nav class="footer__nav footer__contacts--mobile">
+                    <a href="">Контакты</a>
+                    <a href="tel:+7 (900) 222-99-99">+7 (900) 222-99-99</a>
+                    <a href="mailto:info@unitedbrokers.io">info@unitedbrokers.io</a>
                 </nav>
                 <nav class="footer__nav">
                     <a href="">Документы</a>
